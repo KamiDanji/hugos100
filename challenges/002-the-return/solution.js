@@ -3,11 +3,11 @@
 
 function giveHello() {
   // ✏️ your code here
-
+  return "Hello, World!";
 }
 
 // See it work: remove the // from the next line...
-// console.log(giveHello());
+console.log(giveHello());
 // ...then run: node challenges/002-the-return/solution.js
 
 // This line connects your code to the tests. Leave it alone!
