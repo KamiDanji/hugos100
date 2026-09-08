@@ -3,11 +3,11 @@
 
 function sayHello() {
   // ✏️ your code here
-
+  console.log("Hello, World!");
 }
 
 // Want to see it work? Remove the // from the next line...
-// sayHello();
+sayHello();
 // ...then run: node challenges/001-hello-console/solution.js
 
 // This line connects your code to the tests. Leave it alone!
