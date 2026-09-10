@@ -3,7 +3,8 @@
 
 function favoriteGame() {
   // ✏️ your code here
-
+  let game = "Mario Kart";
+  return game;
 }
 
 // See it work: remove the // from the next line...

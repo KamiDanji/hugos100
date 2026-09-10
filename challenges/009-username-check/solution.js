@@ -3,7 +3,7 @@
 
 function usernameLength(username) {
   // ✏️ your code here
-
+  return username.length;
 }
 
 // See it work: remove the // from the next line...

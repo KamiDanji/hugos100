@@ -3,7 +3,8 @@
 
 function levelUp(score) {
   // ✏️ your code here
-
+  score += 100;
+  return score;
 }
 
 // See it work: remove the // from the next line...
