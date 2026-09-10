@@ -3,6 +3,7 @@
 
 function slicesEach(slices, friends) {
   // ✏️ your code here
+  return slices / friends;
 
 }
 

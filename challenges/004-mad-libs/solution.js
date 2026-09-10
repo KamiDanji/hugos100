@@ -3,7 +3,7 @@
 
 function madLib(name, animal) {
   // ✏️ your code here
-
+  return name + " has a pet " + animal + ".";
 }
 
 // See it work: remove the // from the next line...

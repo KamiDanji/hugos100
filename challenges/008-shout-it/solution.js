@@ -3,7 +3,8 @@
 
 function shoutIt(text) {
   // ✏️ your code here
-
+  text = text.toUpperCase() + "!";
+  return text;
 }
 
 // See it work: remove the // from the next line...
