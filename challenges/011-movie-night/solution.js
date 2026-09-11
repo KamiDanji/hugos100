@@ -3,7 +3,10 @@
 
 function canWatch(age) {
   // ✏️ your code here
-
+  if (age >= 13) {
+    return "Enjoy the movie!";
+  }
+  return "Sorry, too young.";
 }
 
 // See it work: remove the // from the next line...

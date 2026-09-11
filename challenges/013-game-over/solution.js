@@ -3,7 +3,10 @@
 
 function checkLives(lives) {
   // ✏️ your code here
-
+  if (lives === 0) {
+    return "Game over";
+  }
+  return "Keep playing";
 }
 
 // See it work: remove the // from the next line...
