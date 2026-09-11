@@ -3,7 +3,12 @@
 
 function emojiStory() {
   // ✏️ your code here
-
+  let story = "";
+  story += "🌱";
+  story += "🌿";
+  story += "🌳";
+  story += "🍎";
+  return story;
 }
 
 // See it work: remove the // from the next line...

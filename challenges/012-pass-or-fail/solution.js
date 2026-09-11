@@ -3,7 +3,10 @@
 
 function passOrFail(grade) {
   // ✏️ your code here
-
+  if (grade >= 5.5) {
+    return "Passed! 🎉";
+  }
+  return "Failed 😢";
 }
 
 // See it work: remove the // from the next line...
