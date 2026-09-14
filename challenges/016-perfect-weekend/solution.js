@@ -3,7 +3,10 @@
 
 function gamingTime(isWeekend, homeworkDone) {
   // ✏️ your code here
-
+  if (isWeekend && homeworkDone) {
+    return "Game on! 🎮";
+  }
+  else {return "Not yet...";}
 }
 
 // See it work: remove the // from the next line...
