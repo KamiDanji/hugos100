@@ -3,7 +3,12 @@
 
 function whoStarts(roll) {
   // ✏️ your code here
-
+  if (roll % 2 === 0) {
+    return "Player 1 starts";
+  }
+  else {
+    return "Player 2 starts";
+  }
 }
 
 // See it work: remove the // from the next line...
