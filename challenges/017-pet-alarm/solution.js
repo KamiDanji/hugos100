@@ -3,7 +3,11 @@
 
 function petAlarm(isHungry, isThirsty) {
   // ✏️ your code here
-
+    if (isHungry || isThirsty) {
+        return "Take care of your pet! 🚨";
+    } else {
+        return "All good, pet is happy 🐹";
+    }
 }
 
 // See it work: remove the // from the next line...

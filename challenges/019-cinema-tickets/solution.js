@@ -3,7 +3,12 @@
 
 function ticketPrice(age) {
   // ✏️ your code here
-
+  if (age < 12) {
+    return 6;
+  } else if (age >= 65) {
+    return 8;
+  }
+  return 12;
 }
 
 // See it work: remove the // from the next line...

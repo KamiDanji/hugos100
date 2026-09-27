@@ -3,7 +3,8 @@
 
 function undoPhoto(album) {
   // ✏️ your code here
-
+  album.pop();
+  return album;
 }
 
 // See it work: remove the // from the next line...

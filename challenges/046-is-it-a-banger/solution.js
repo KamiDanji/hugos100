@@ -3,7 +3,7 @@
 
 function isBanger(rating) {
   // ✏️ your code here
-
+  return rating >= 8;
 }
 
 // See it work: remove the // from the next line...

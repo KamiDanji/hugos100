@@ -3,7 +3,13 @@
 
 function rideCheck(height, hasTicket) {
   // ✏️ your code here
-
+  if (height < 120) {
+    return "Sorry, you're not tall enough.";
+  }
+  if (!hasTicket) {
+    return "You need a ticket first.";
+  }
+  return "Enjoy the ride!";
 }
 
 // See it work: remove the // from the next line...

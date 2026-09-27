@@ -4,4 +4,8 @@
 //
 // ✏️ your code here
 
-// module.exports = { greet };
+function greet(name, mood) {
+  return `Hey ${name}, you look ${mood} today!`;
+}
+
+module.exports = { greet };

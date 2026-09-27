@@ -3,7 +3,10 @@
 
 function petReport(pets) {
   // ✏️ your code here
-
+  if (pets.length === 0) {
+    return "A quiet weekend.";
+  }
+  return `You are watching ${pets.length} pets this weekend!`;
 }
 
 // See it work: remove the // from the next line...

@@ -3,7 +3,7 @@
 
 function lastSong(playlist) {
   // ✏️ your code here
-
+  return playlist[playlist.length - 1];
 }
 
 // See it work: remove the // from the next line...

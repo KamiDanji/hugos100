@@ -3,7 +3,13 @@
 
 function piggyBank(days) {
   // ✏️ your code here
-
+  let total = 0;
+  for (let i = 1; i <= days; i++) {
+    if (i % 2 === 0) {
+      total += i;
+    }
+  }
+  return total;
 }
 
 // See it work: remove the // from the next line...

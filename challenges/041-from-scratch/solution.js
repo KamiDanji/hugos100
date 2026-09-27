@@ -4,5 +4,9 @@
 //
 // ✏️ your code here
 
+function doublePoints(points) {
+  return points * 2;
+}
+
 // When your function is done, copy this line to the bottom (without the //):
-// module.exports = { doublePoints };
+module.exports = { doublePoints };

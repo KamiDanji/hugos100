@@ -3,7 +3,10 @@
 
 function requestSong(playlist, song) {
   // ✏️ your code here
-
+  if (playlist.includes(song)) {
+    return "Already in the queue!";
+  }
+  return "Added to the queue!";
 }
 
 // See it work: remove the // from the next line...

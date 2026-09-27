@@ -3,7 +3,12 @@
 
 function introduceTeam(names, teamName) {
   // ✏️ your code here
-
+  let list = names[0];
+  for (let i = 1; i < names.length - 1; i++) {
+    list += ", " + names[i];
+  }
+  list += " and " + names[names.length - 1];
+  return `${list}: together we are ${teamName}!`;
 }
 
 // See it work: remove the // from the next line...

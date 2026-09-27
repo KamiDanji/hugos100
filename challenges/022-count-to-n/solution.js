@@ -3,7 +3,11 @@
 
 function countTo(n) {
   // ✏️ your code here
-
+  let result = "";
+  for (let i = 1; i <= n; i++) {
+    result += i + " ";
+  }
+  return result;
 }
 
 // See it work: remove the // from the next line...

@@ -3,7 +3,11 @@
 
 function jumpingJacks(times) {
   // ✏️ your code here
-
+  let result = "";
+  for (let i = 0; i < times; i++) {
+    result += "jump! ";
+  }
+  return result;
 }
 
 // See it work: remove the // from the next line...

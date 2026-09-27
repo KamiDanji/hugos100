@@ -4,4 +4,8 @@
 //
 // ✏️ your code here
 
-// module.exports = { welcome };
+function welcome(name = "stranger") {
+  return `Hello ${name}!`;
+}
+
+module.exports = { welcome };

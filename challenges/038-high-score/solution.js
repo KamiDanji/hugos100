@@ -3,7 +3,13 @@
 
 function highScore(scores) {
   // ✏️ your code here
-
+  let highest = scores[0];
+  for (let i = 1; i < scores.length; i++) {
+    if (scores[i] > highest) {
+      highest = scores[i];
+    }
+  }
+  return highest;
 }
 
 // See it work: remove the // from the next line...

@@ -3,7 +3,11 @@
 
 function gymDays(lastDay) {
   // ✏️ your code here
-
+  let result = "";
+  for (let i = 2; i <= lastDay; i += 2) {
+    result += i + " ";
+  }
+  return result;
 }
 
 // See it work: remove the // from the next line...

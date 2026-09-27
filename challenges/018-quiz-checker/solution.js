@@ -3,7 +3,10 @@
 
 function checkAnswer(answer) {
   // ✏️ your code here
-
+  if (answer.toLowerCase() === "paris") {
+    return "Correct! ✅";
+  }
+  return "Wrong ❌";
 }
 
 // See it work: remove the // from the next line...

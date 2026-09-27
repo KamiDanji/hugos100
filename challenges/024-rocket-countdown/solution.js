@@ -3,7 +3,11 @@
 
 function rocketCountdown(start) {
   // ✏️ your code here
-
+  let result = "";
+  for (let i = start; i >= 1; i--) {
+    result += i + " ";
+  }
+  return result + "Liftoff!";
 }
 
 // See it work: remove the // from the next line...

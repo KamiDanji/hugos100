@@ -3,7 +3,13 @@
 
 function countPasses(grades) {
   // ✏️ your code here
-
+  let count = 0;
+  for (let i = 0; i < grades.length; i++) {
+    if (grades[i] >= 5.5) {
+      count += 1;
+    }
+  }
+  return count;
 }
 
 // See it work: remove the // from the next line...

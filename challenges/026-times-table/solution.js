@@ -3,7 +3,11 @@
 
 function timesTable(number) {
   // ✏️ your code here
-
+  let result = "";
+  for (let i = 1; i <= 5; i++) {
+    result += `${i} x ${number} = ${i * number}\n`;
+  }
+  return result;
 }
 
 // See it work: remove the // from the next line...

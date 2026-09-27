@@ -3,7 +3,12 @@
 
 function danceBattle(energy) {
   // ✏️ your code here
-
+  let moves = 0;
+  while (energy >= 10) {
+    energy -= 10;
+    moves++;
+  }
+  return moves;
 }
 
 // See it work: remove the // from the next line...

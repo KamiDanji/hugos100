@@ -5,5 +5,9 @@
 //
 // ✏️ your code here
 
+const tripleScore = (score) => {
+  return score * 3;
+};
+
 // When your function is done, copy this line to the bottom (without the //):
-// module.exports = { tripleScore };
+module.exports = { tripleScore };

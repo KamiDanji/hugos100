@@ -3,7 +3,8 @@
 
 function addSong(playlist, newSong) {
   // ✏️ your code here
-
+  playlist.push(newSong);
+  return playlist;
 }
 
 // See it work: remove the // from the next line...

@@ -3,7 +3,11 @@
 
 function stepsToFloor(floors) {
   // ✏️ your code here
-
+  let total = 0;
+  for (let i = 1; i <= floors; i++) {
+    total += i * 10;
+  }
+  return total;
 }
 
 // See it work: remove the // from the next line...

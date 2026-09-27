@@ -3,7 +3,11 @@
 
 function rollCall(names) {
   // ✏️ your code here
-
+  let result = "";
+  for (let i = 0; i < names.length; i++) {
+    result += `Hi ${names[i]}! `;
+  }
+  return result;
 }
 
 // See it work: remove the // from the next line...

@@ -3,7 +3,11 @@
 
 function totalScore(scores) {
   // ✏️ your code here
-
+  let total = 0;
+  for (let i = 0; i < scores.length; i++) {
+    total += scores[i];
+  }
+  return total;
 }
 
 // See it work: remove the // from the next line...

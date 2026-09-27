@@ -16,7 +16,7 @@ function eatBreakfast() {
 
 function morningRoutine() {
   // ✏️ your code here
-
+  return `I ${brushTeeth()}, ${getDressed()} and ${eatBreakfast()}. Ready!`;
 }
 
 // See it work: remove the // from the next line...

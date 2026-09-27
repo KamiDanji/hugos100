@@ -3,7 +3,19 @@
 
 function sodaPop(n) {
   // ✏️ your code here
-
+  let result = "";
+  for (let i = 1; i <= n; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      result += "soda-pop ";
+    } else if (i % 3 === 0) {
+      result += "soda ";
+    } else if (i % 5 === 0) {
+      result += "pop ";
+    } else {
+      result += i + " ";
+    }
+  }
+  return result;
 }
 
 // See it work: remove the // from the next line...
