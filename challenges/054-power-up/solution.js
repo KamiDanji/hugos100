@@ -3,7 +3,10 @@
 
 function power(base, exp) {
   // ✏️ your code here
-
+    if (exp === 0) {
+        return 1;
+    }
+    return base * power(base, exp - 1);
 }
 
 // See it work: remove the // from the next line...

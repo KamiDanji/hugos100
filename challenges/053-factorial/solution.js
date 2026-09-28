@@ -3,7 +3,12 @@
 
 function factorial(n) {
   // ✏️ your code here
-
+    if (n === 1) {
+        return 1;
+    }else if (n < 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
 }
 
 // See it work: remove the // from the next line...
