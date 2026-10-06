@@ -3,7 +3,7 @@
 
 function firstAlbumTitle(albums) {
   // ✏️ your code here
-
+  return albums[0].title;
 }
 
 // See it work: remove the // from the next line...

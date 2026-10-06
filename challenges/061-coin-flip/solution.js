@@ -3,7 +3,7 @@
 
 function flip() {
   // ✏️ your code here
-
+  return Math.random() < 0.5 ? "heads" : "tails";
 }
 
 // See it work: remove the // from the next line...

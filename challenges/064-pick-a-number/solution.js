@@ -3,7 +3,7 @@
 
 function randomBetween(min, max) {
   // ✏️ your code here
-
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 // See it work: remove the // from the next line...

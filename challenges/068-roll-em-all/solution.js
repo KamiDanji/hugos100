@@ -3,7 +3,11 @@
 
 function rollMany(count) {
   // ✏️ your code here
-
+  const rolls = [];
+  for (let index = 0; index < count; index += 1) {
+    rolls.push(Math.floor(Math.random() * 6) + 1);
+  }
+  return rolls;
 }
 
 // See it work: remove the // from the next line...

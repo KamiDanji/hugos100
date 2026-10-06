@@ -3,7 +3,11 @@
 
 function flipsUntilHeads() {
   // ✏️ your code here
-
+  let flips = 0;
+  do {
+    flips += 1;
+  } while (Math.random() >= 0.5);
+  return flips;
 }
 
 // See it work: remove the // from the next line...

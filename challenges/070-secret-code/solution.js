@@ -3,7 +3,11 @@
 
 function makeCode(length) {
   // ✏️ your code here
-
+  let code = "";
+  for (let index = 0; index < length; index += 1) {
+    code += Math.floor(Math.random() * 10);
+  }
+  return code;
 }
 
 // See it work: remove the // from the next line...

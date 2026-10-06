@@ -3,7 +3,8 @@
 
 function countLetter(word, letter) {
   // ✏️ your code here
-
+  if (word.length === 0) return 0;
+  return (word[0] === letter ? 1 : 0) + countLetter(word.slice(1), letter);
 }
 
 // See it work: remove the // from the next line...

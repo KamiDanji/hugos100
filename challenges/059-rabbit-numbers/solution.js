@@ -3,7 +3,8 @@
 
 function fib(n) {
   // ✏️ your code here
-
+  if (n <= 2) return 1;
+  return fib(n - 1) + fib(n - 2);
 }
 
 // See it work: remove the // from the next line...

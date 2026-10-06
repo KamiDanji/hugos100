@@ -3,7 +3,8 @@
 
 function meetMyPet() {
   // ✏️ your code here
-
+  const pet = { name: "Shelly", species: "turtle" };
+  return pet.name;
 }
 
 // See it work: remove the // from the next line...

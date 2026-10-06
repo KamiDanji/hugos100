@@ -3,7 +3,8 @@
 
 function reverseWord(word) {
   // ✏️ your code here
-
+  if (word.length <= 1) return word;
+  return reverseWord(word.slice(1)) + word[0];
 }
 
 // See it work: remove the // from the next line...

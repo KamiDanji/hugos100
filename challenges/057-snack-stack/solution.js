@@ -3,7 +3,8 @@
 
 function totalCalories(calories) {
   // ✏️ your code here
-
+  if (calories.length === 0) return 0;
+  return calories[0] + totalCalories(calories.slice(1));
 }
 
 // See it work: remove the // from the next line...

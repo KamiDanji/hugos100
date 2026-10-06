@@ -3,7 +3,7 @@
 
 function rollDie() {
   // ✏️ your code here
-
+  return Math.floor(Math.random() * 6) + 1;
 }
 
 // See it work: remove the // from the next line...

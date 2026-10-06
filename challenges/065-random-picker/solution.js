@@ -3,7 +3,7 @@
 
 function pickOne(items) {
   // ✏️ your code here
-
+  return items[Math.floor(Math.random() * items.length)];
 }
 
 // See it work: remove the // from the next line...

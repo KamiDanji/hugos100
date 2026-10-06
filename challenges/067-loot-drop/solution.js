@@ -3,7 +3,7 @@
 
 function openChest() {
   // ✏️ your code here
-
+  return Math.random() < 1 / 3 ? "epic sword" : "dust";
 }
 
 // See it work: remove the // from the next line...

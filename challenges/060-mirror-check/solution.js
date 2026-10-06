@@ -3,7 +3,9 @@
 
 function isPalindrome(word) {
   // ✏️ your code here
-
+  if (word.length <= 1) return true;
+  if (word[0] !== word[word.length - 1]) return false;
+  return isPalindrome(word.slice(1, -1));
 }
 
 // See it work: remove the // from the next line...

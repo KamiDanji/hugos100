@@ -3,7 +3,8 @@
 
 function addToBag(character, item) {
   // ✏️ your code here
-
+  character.items.push(item);
+  return character;
 }
 
 // See it work: remove the // from the next line...

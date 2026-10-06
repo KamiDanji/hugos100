@@ -3,7 +3,9 @@
 
 function waterPlant(plant) {
   // ✏️ your code here
-
+  plant.height += 5;
+  plant.watered = true;
+  return plant;
 }
 
 // See it work: remove the // from the next line...

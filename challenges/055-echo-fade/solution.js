@@ -3,7 +3,8 @@
 
 function fade(word) {
   // ✏️ your code here
-
+  if (word.length <= 1) return word;
+  return `${word} ${fade(word.slice(1))}`;
 }
 
 // See it work: remove the // from the next line...

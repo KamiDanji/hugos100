@@ -3,7 +3,7 @@
 
 function movieCard(movie) {
   // ✏️ your code here
-
+  return `${movie.title} (${movie.year}) ★${movie.rating}`;
 }
 
 // See it work: remove the // from the next line...

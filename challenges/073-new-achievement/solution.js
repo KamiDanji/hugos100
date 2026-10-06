@@ -3,7 +3,8 @@
 
 function unlock(player, achievement) {
   // ✏️ your code here
-
+  player.achievement = achievement;
+  return player;
 }
 
 // See it work: remove the // from the next line...

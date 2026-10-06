@@ -3,7 +3,7 @@
 
 function botMove() {
   // ✏️ your code here
-
+  return ["rock", "paper", "scissors"][Math.floor(Math.random() * 3)];
 }
 
 // See it work: remove the // from the next line...

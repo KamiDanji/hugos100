@@ -3,7 +3,7 @@
 
 function levelUpHero(hero) {
   // ✏️ your code here
-
+  return { ...hero, level: hero.level + 1 };
 }
 
 // See it work: remove the // from the next line...
