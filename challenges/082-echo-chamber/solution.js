@@ -2,8 +2,7 @@
 // Read challenge.md first.
 
 function laugh(intensity) {
-  // ✏️ your code here
-
+  return "ha".repeat(intensity) + "!";
 }
 
 // See it work: remove the // from the next line...

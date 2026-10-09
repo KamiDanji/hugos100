@@ -2,8 +2,7 @@
 // Read challenge.md first.
 
 function tidy(input) {
-  // ✏️ your code here
-
+  return input.trim().toLowerCase();
 }
 
 // See it work: remove the // from the next line...

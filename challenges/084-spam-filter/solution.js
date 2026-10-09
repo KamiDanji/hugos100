@@ -2,8 +2,8 @@
 // Read challenge.md first.
 
 function isSpam(message) {
-  // ✏️ your code here
-
+  const lower = message.toLowerCase();
+  return lower.includes("free money") || lower.includes("you won");
 }
 
 // See it work: remove the // from the next line...

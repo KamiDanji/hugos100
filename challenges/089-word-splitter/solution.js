@@ -2,13 +2,11 @@
 // Read challenge.md first.
 
 function slugify(title) {
-  // ✏️ your code here
-
+  return title.split(" ").join("-");
 }
 
 function wordCount(title) {
-  // ✏️ your code here
-
+  return title.split(" ").length;
 }
 
 // See it work: remove the // from the next line...

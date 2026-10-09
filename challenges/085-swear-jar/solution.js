@@ -2,8 +2,7 @@
 // Read challenge.md first.
 
 function beepOut(sentence, word) {
-  // ✏️ your code here
-
+  return sentence.replaceAll(word, "BEEP");
 }
 
 // See it work: remove the // from the next line...

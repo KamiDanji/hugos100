@@ -2,8 +2,7 @@
 // Read challenge.md first.
 
 function getDomain(email) {
-  // ✏️ your code here
-
+  return email.slice(email.indexOf("@") + 1);
 }
 
 // See it work: remove the // from the next line...

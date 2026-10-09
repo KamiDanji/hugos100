@@ -2,8 +2,8 @@
 // Read challenge.md first.
 
 function clockTime(minutes, seconds) {
-  // ✏️ your code here
-
+  const padded = `${seconds}`.padStart(2, "0");
+  return `${minutes}:${padded}`;
 }
 
 // See it work: remove the // from the next line...

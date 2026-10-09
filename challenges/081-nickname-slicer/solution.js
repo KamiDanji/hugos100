@@ -2,8 +2,7 @@
 // Read challenge.md first.
 
 function tagOf(name) {
-  // ✏️ your code here
-
+  return name.slice(0, 3).toUpperCase();
 }
 
 // See it work: remove the // from the next line...

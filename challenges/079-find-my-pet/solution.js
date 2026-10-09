@@ -2,8 +2,12 @@
 // Read challenge.md first.
 
 function findPet(pets, name) {
-  // ✏️ your code here
-
+  for (let i = 0; i < pets.length; i++) {
+    if (pets[i].name === name) {
+      return pets[i];
+    }
+  }
+  return null;
 }
 
 // See it work: remove the // from the next line...

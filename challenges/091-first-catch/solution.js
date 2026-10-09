@@ -10,8 +10,11 @@ function launchRocket(fuel) {
 }
 
 function safeLaunch(fuel) {
-  // ✏️ your code here
-
+  try {
+    return launchRocket(fuel);
+  } catch (error) {
+    return "Launch aborted.";
+  }
 }
 
 // See it work: remove the // from the next line...

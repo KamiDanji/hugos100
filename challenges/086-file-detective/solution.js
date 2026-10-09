@@ -2,13 +2,11 @@
 // Read challenge.md first.
 
 function isImage(filename) {
-  // ✏️ your code here
-
+  return filename.endsWith(".png") || filename.endsWith(".jpg");
 }
 
 function isHidden(filename) {
-  // ✏️ your code here
-
+  return filename.startsWith(".");
 }
 
 // See it work: remove the // from the next line...

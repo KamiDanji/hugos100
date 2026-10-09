@@ -13,8 +13,11 @@ function readDiary(page) {
 }
 
 function tryRead(page) {
-  // ✏️ your code here
-
+  try {
+    return readDiary(page);
+  } catch (error) {
+    return `Problem: ${error.message}`;
+  }
 }
 
 // See it work: remove the // from the next line...

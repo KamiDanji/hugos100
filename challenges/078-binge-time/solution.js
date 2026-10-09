@@ -2,8 +2,11 @@
 // Read challenge.md first.
 
 function totalMinutes(episodes) {
-  // ✏️ your code here
-
+  let total = 0;
+  for (let i = 0; i < episodes.length; i++) {
+    total += episodes[i].minutes;
+  }
+  return total;
 }
 
 // See it work: remove the // from the next line...

@@ -2,8 +2,7 @@
 // Read challenge.md first.
 
 function createCharacter(name, role) {
-  // ✏️ your code here
-
+  return { name, role, level: 1, hp: 100 };
 }
 
 // See it work: remove the // from the next line...
